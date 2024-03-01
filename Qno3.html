@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2019 Qno3</title>
+</head>
+<body>
+    <h1>(2019) Qno3.Write a JavaScript to print largest & smallest among 10 elements of an array</h1>
+    <script>
+        let arr = [1,2,3,4,5,6,7,8,9,10];
+        let length=arr.length;
+        let largest=arr[0];
+        let smallest=arr[0];
+        for(let i=1;i<length;i++){
+            if(arr[i]<smallest){
+                smallest=arr[i];
+
+            }
+            else if(arr[i]>largest){
+                largest=arr[i];
+
+            }
+
+        }
+        document.write(`the largest value is ${largest} and smallest value is ${smallest}`);
+        
+    </script>
+</body>
+</html>
