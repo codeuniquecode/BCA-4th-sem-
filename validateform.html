@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit=" return validate()">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" id="name">
+                <b><span class="showerror"></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text" name="password" id="password">
+                <b><span class="showerror"></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type="text" name="cpassword" id="cpassword">
+                <b><span class="showerror"></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text" name="phone" id="phone">
+                <b><span class="showerror"></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="email" id="email">
+                <b><span class="showerror"></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input type="text" name="dob" id="dob">
+                <b><span class="showerror"></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                <select name="country" id="country">
+                    <option value="null">select country</option>
+                    <option value="nepal">nepal</option>
+                    <option value="india">india</option>
+                </select>
+                <b><span class="showerror"></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender">Male
+                    <input type="radio" name="gender">female
+                <b><span class="showerror"></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="checkbox" id="checkbox">
+                    
+                    </td>
+                <td>I accept terms and conditions<b><span class="showerror"></span></b></td>
+                
+            </tr>
+        </table>
+        <input type="submit" name="" id="">
+    </form>
+    <script src="validateform.js"></script>
+</body>
+</html>
